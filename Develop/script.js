@@ -12,19 +12,12 @@ const collectEmployees = function () {
     let newEmployees = true;
     while (newEmployees) {
         let firstName = window.prompt("Enter your first name");
-
-
-        console.log(firstName)
         let lastName = window.prompt("Enter your last name");
-
-        console.log(lastName)
         let salary = window.prompt("Enter your salary");
         ;
         if (isNaN(salary)) {
             salary = 0
         }
-
-        console.log(salary)
         let employeesData = {
             firstName: firstName,
             lastName: lastName,
